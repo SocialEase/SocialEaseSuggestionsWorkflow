@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2019C7728B60C77D69B78A30 /* Pods_SocialEaseSuggestionsWorkflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E094AE0F4E95D8D7DDA5DFE /* Pods_SocialEaseSuggestionsWorkflow.framework */; };
+		AC4906031BD460D50025F225 /* SEAActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4906021BD460D50025F225 /* SEAActivity.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5BB5511BD407060014F29D /* SuggestedPlaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BB5501BD407060014F29D /* SuggestedPlaceViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5BB5531BD4124E0014F29D /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BB5521BD4124E0014F29D /* AppExtensions.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5BB5551BD428500014F29D /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BB5541BD428500014F29D /* DateUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		AC5BB5571BD42A2E0014F29D /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BB5561BD42A2E0014F29D /* AppUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		ACC0E3B91BD3671600DE186A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E3B81BD3671600DE186A /* AppDelegate.swift */; };
+		ACC0E3BB1BD3671600DE186A /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E3BA1BD3671600DE186A /* SuggestionsViewController.swift */; };
+		ACC0E3BE1BD3671600DE186A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0E3BC1BD3671600DE186A /* Main.storyboard */; };
+		ACC0E3C01BD3671600DE186A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC0E3BF1BD3671600DE186A /* Assets.xcassets */; };
+		ACC0E3C31BD3671600DE186A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC0E3C11BD3671600DE186A /* LaunchScreen.storyboard */; };
+		ACC0E3CB1BD378ED00DE186A /* socialease.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC0E3CA1BD378ED00DE186A /* socialease.ttf */; settings = {ASSET_TAGS = (); }; };
+		ACC0E3CD1BD4005500DE186A /* FilterOptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E3CC1BD4005500DE186A /* FilterOptionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C378B0E025DDED7539F64F /* Pods-SocialEaseSuggestionsWorkflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialEaseSuggestionsWorkflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialEaseSuggestionsWorkflow/Pods-SocialEaseSuggestionsWorkflow.release.xcconfig"; sourceTree = "<group>"; };
+		7C5D6E9178C0165578DE91AC /* Pods-SocialEaseSuggestionsWorkflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialEaseSuggestionsWorkflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialEaseSuggestionsWorkflow/Pods-SocialEaseSuggestionsWorkflow.debug.xcconfig"; sourceTree = "<group>"; };
+		7E094AE0F4E95D8D7DDA5DFE /* Pods_SocialEaseSuggestionsWorkflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialEaseSuggestionsWorkflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4906021BD460D50025F225 /* SEAActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEAActivity.swift; sourceTree = "<group>"; };
+		AC5BB5501BD407060014F29D /* SuggestedPlaceViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedPlaceViewCell.swift; sourceTree = "<group>"; };
+		AC5BB5521BD4124E0014F29D /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		AC5BB5541BD428500014F29D /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		AC5BB5561BD42A2E0014F29D /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		ACC0E3B51BD3671600DE186A /* SocialEaseSuggestionsWorkflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialEaseSuggestionsWorkflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC0E3B81BD3671600DE186A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC0E3BA1BD3671600DE186A /* SuggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		ACC0E3BD1BD3671600DE186A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC0E3BF1BD3671600DE186A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC0E3C21BD3671600DE186A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC0E3C41BD3671700DE186A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC0E3CA1BD378ED00DE186A /* socialease.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = socialease.ttf; sourceTree = "<group>"; };
+		ACC0E3CC1BD4005500DE186A /* FilterOptionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC0E3B21BD3671600DE186A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2019C7728B60C77D69B78A30 /* Pods_SocialEaseSuggestionsWorkflow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		764E1D1FAE4B09AF4CEC4E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E094AE0F4E95D8D7DDA5DFE /* Pods_SocialEaseSuggestionsWorkflow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC0E3AC1BD3671600DE186A = {
+			isa = PBXGroup;
+			children = (
+				ACC0E3B71BD3671600DE186A /* SocialEaseSuggestionsWorkflow */,
+				ACC0E3B61BD3671600DE186A /* Products */,
+				D448144181F05B92FE1B3A0B /* Pods */,
+				764E1D1FAE4B09AF4CEC4E35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC0E3B61BD3671600DE186A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0E3B51BD3671600DE186A /* SocialEaseSuggestionsWorkflow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC0E3B71BD3671600DE186A /* SocialEaseSuggestionsWorkflow */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0E3CA1BD378ED00DE186A /* socialease.ttf */,
+				ACC0E3B81BD3671600DE186A /* AppDelegate.swift */,
+				ACC0E3BA1BD3671600DE186A /* SuggestionsViewController.swift */,
+				ACC0E3BC1BD3671600DE186A /* Main.storyboard */,
+				ACC0E3BF1BD3671600DE186A /* Assets.xcassets */,
+				ACC0E3C11BD3671600DE186A /* LaunchScreen.storyboard */,
+				ACC0E3C41BD3671700DE186A /* Info.plist */,
+				ACC0E3CC1BD4005500DE186A /* FilterOptionViewCell.swift */,
+				AC5BB5501BD407060014F29D /* SuggestedPlaceViewCell.swift */,
+				AC5BB5521BD4124E0014F29D /* AppExtensions.swift */,
+				AC5BB5541BD428500014F29D /* DateUtils.swift */,
+				AC5BB5561BD42A2E0014F29D /* AppUtils.swift */,
+				AC4906021BD460D50025F225 /* SEAActivity.swift */,
+			);
+			path = SocialEaseSuggestionsWorkflow;
+			sourceTree = "<group>";
+		};
+		D448144181F05B92FE1B3A0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D6E9178C0165578DE91AC /* Pods-SocialEaseSuggestionsWorkflow.debug.xcconfig */,
+				16C378B0E025DDED7539F64F /* Pods-SocialEaseSuggestionsWorkflow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC0E3B41BD3671600DE186A /* SocialEaseSuggestionsWorkflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC0E3C71BD3671700DE186A /* Build configuration list for PBXNativeTarget "SocialEaseSuggestionsWorkflow" */;
+			buildPhases = (
+				19A769D854343D39E5464C41 /* Check Pods Manifest.lock */,
+				ACC0E3B11BD3671600DE186A /* Sources */,
+				ACC0E3B21BD3671600DE186A /* Frameworks */,
+				ACC0E3B31BD3671600DE186A /* Resources */,
+				91CE839A120E4DD08E40AC8A /* Embed Pods Frameworks */,
+				F921A349F4A9C5CB0EF6C9F6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialEaseSuggestionsWorkflow;
+			productName = SocialEaseSuggestionsWorkflow;
+			productReference = ACC0E3B51BD3671600DE186A /* SocialEaseSuggestionsWorkflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC0E3AD1BD3671600DE186A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ple;
+				TargetAttributes = {
+					ACC0E3B41BD3671600DE186A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = U4SX4BRLM6;
+					};
+				};
+			};
+			buildConfigurationList = ACC0E3B01BD3671600DE186A /* Build configuration list for PBXProject "SocialEaseSuggestionsWorkflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC0E3AC1BD3671600DE186A;
+			productRefGroup = ACC0E3B61BD3671600DE186A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC0E3B41BD3671600DE186A /* SocialEaseSuggestionsWorkflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC0E3B31BD3671600DE186A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC0E3C31BD3671600DE186A /* LaunchScreen.storyboard in Resources */,
+				ACC0E3C01BD3671600DE186A /* Assets.xcassets in Resources */,
+				ACC0E3BE1BD3671600DE186A /* Main.storyboard in Resources */,
+				ACC0E3CB1BD378ED00DE186A /* socialease.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A769D854343D39E5464C41 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91CE839A120E4DD08E40AC8A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialEaseSuggestionsWorkflow/Pods-SocialEaseSuggestionsWorkflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F921A349F4A9C5CB0EF6C9F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialEaseSuggestionsWorkflow/Pods-SocialEaseSuggestionsWorkflow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC0E3B11BD3671600DE186A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5BB5531BD4124E0014F29D /* AppExtensions.swift in Sources */,
+				AC5BB5551BD428500014F29D /* DateUtils.swift in Sources */,
+				AC4906031BD460D50025F225 /* SEAActivity.swift in Sources */,
+				ACC0E3CD1BD4005500DE186A /* FilterOptionViewCell.swift in Sources */,
+				ACC0E3BB1BD3671600DE186A /* SuggestionsViewController.swift in Sources */,
+				AC5BB5511BD407060014F29D /* SuggestedPlaceViewCell.swift in Sources */,
+				AC5BB5571BD42A2E0014F29D /* AppUtils.swift in Sources */,
+				ACC0E3B91BD3671600DE186A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC0E3BC1BD3671600DE186A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC0E3BD1BD3671600DE186A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC0E3C11BD3671600DE186A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC0E3C21BD3671600DE186A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC0E3C51BD3671700DE186A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC0E3C61BD3671700DE186A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC0E3C81BD3671700DE186A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5D6E9178C0165578DE91AC /* Pods-SocialEaseSuggestionsWorkflow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialEaseSuggestionsWorkflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.amays.SocialEaseSuggestionsWorkflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACC0E3C91BD3671700DE186A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C378B0E025DDED7539F64F /* Pods-SocialEaseSuggestionsWorkflow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialEaseSuggestionsWorkflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.amays.SocialEaseSuggestionsWorkflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC0E3B01BD3671600DE186A /* Build configuration list for PBXProject "SocialEaseSuggestionsWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC0E3C51BD3671700DE186A /* Debug */,
+				ACC0E3C61BD3671700DE186A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC0E3C71BD3671700DE186A /* Build configuration list for PBXNativeTarget "SocialEaseSuggestionsWorkflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC0E3C81BD3671700DE186A /* Debug */,
+				ACC0E3C91BD3671700DE186A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC0E3AD1BD3671600DE186A /* Project object */;
+}

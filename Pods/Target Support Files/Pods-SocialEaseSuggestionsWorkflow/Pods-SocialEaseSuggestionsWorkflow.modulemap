@@ -1,0 +1,6 @@
+framework module Pods_SocialEaseSuggestionsWorkflow {
+  umbrella header "Pods-SocialEaseSuggestionsWorkflow-umbrella.h"
+
+  export *
+  module * { export * }
+}
