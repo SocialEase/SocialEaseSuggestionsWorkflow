@@ -1,3 +1,3 @@
 ### Suggestion Workflow Concept
 
-[DEMO](demo.gif)
+![DEMO](demo.gif)
